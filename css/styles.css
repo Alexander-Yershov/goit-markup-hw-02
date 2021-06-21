@@ -53,6 +53,11 @@ body {
   color: var(--text-color);
 }
 .mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: var(--text-color);
 }
 .mail-link:hover,
@@ -60,6 +65,11 @@ body {
   color: var(--accent-color);
 }
 .tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: var(--text-color);
 }
 
@@ -170,6 +180,20 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.footer-mail-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* ================= СТИЛИ ПОРТФОЛИО =============== */
 .buttons-desc {
@@ -179,6 +203,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  cursor: pointer;
 }
 .buttons-desc:hover,
 .buttons-desc:focus {
